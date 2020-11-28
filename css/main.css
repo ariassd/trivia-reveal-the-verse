@@ -1,0 +1,89 @@
+body {
+  font-family: "Gloria Hallelujah", cursive;
+  background-image: url(../assets/background1.jpg);
+  color: #000000;
+}
+
+.bible-text {
+  text-align: center;
+  font-size: 30px;
+}
+
+.vh50 {
+  height: 50%;
+}
+
+.bible-text span {
+  display: none;
+}
+
+.questions {
+  text-align: center;
+}
+
+.question {
+  padding: 10px 0 10px 0;
+  background-color: #ffffff8f;
+  color: black;
+  font-size: 1.2em;
+}
+
+.answer {
+  cursor: help;
+  height: 50px;
+  margin: auto;
+  padding: 10px;
+}
+
+.answer:hover {
+  background-color: rgb(176, 255, 176);
+  color: black;
+}
+
+.card {
+  margin: 40px;
+  background-color: #ffffff8f;
+}
+
+.answer {
+  background: #ffffff8f;
+  border-radius: 10px;
+  margin: 5px 13px 0 13px;
+  color: #000000;
+}
+
+.left-side:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 13px solid transparent;
+  border-left-color: #ffffff8f;
+  border-right: 0;
+  margin-top: -13px;
+  margin-right: -13px;
+}
+
+.right-side:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 13px solid transparent;
+  border-right-color: #ffffff8f;
+  border-left: 0;
+  margin-top: -13px;
+  margin-left: -13px;
+}
+
+.wrong-answer {
+  background-color: rgb(255, 173, 173);
+}
+
+.right-answer {
+  background-color: rgb(124, 255, 124);
+}
